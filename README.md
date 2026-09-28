@@ -77,6 +77,7 @@ A governed agent runs with least-privilege tool access, an immutable audit trail
 
 ## Open-Source Governance Toolkits
 
+- **[Agent Action Runtime](https://github.com/MrRex168/agent-action-runtime)** — Open-source execution layer for AI agent actions with policy controls, human approval, retries, post-action verification, recovery, and structured execution receipts.
 - [AffixIO](https://github.com/AffixIO/SDK) - Agentic Pay Kit (npm `affixio`) with host-side signed yes/no ACTION attestation before agent pay and tool gates (x402BeforePay / Agentic Pay / KYA; not person KYC). ([npm](https://www.npmjs.com/package/affixio)) ([docs](https://www.affix-io.com/agent-trust/))
 - [agent-airlock](https://github.com/sattyamjjain/agent-airlock) - Apache-2.0 Python library that checks agent tool calls before they run. Pydantic V2 strict validation with no type coercion, strips arguments that are not in the tool's signature, and returns structured fix hints the model can retry against. Adds RBAC, rate limits, per-model cost budgets, capability gating, and per-CVE guards for MCP servers. Adapters for LangChain, LangGraph, OpenAI Agents SDK, Claude Agent SDK, PydanticAI, CrewAI, Google ADK, and FastMCP.
 - [Agentlas OS](https://github.com/agentlas-ai/Agentlas-OS) - Apache-2.0 local-first Agent Operation Environment (AOE) with explicit permission scopes, least-privilege tool access, verification gates, and local execution receipts across Claude Code, Codex, Gemini CLI, Cursor, and local models.
